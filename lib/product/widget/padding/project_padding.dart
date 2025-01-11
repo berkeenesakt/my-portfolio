@@ -7,6 +7,13 @@ final class ProjectPadding extends EdgeInsets {
   /// All sides padding with default 20
   static EdgeInsets get all => const EdgeInsets.all(20);
 
+  //Content Padding
+  static EdgeInsets get contentPadding => const EdgeInsets.symmetric(horizontal: 112, vertical: 64);
+  static EdgeInsets get contentPaddingHorizontal => const EdgeInsets.symmetric(horizontal: 112);
+
+  //Container Padding
+  static EdgeInsets get containerPadding => const EdgeInsets.all(32);
+
   /// Horizontal padding with default 20
   static EdgeInsets get horizontalDefault => const EdgeInsets.symmetric(horizontal: 20);
 
@@ -29,14 +36,4 @@ final class ProjectPadding extends EdgeInsets {
 
   /// Only top padding with default 20
   static EdgeInsets get onlyTop => const EdgeInsets.only(top: 20);
-
-  /// Custom symmetric padding
-  static EdgeInsets symmetric({
-    double horizontal = 0,
-    double vertical = 0,
-  }) =>
-      EdgeInsets.symmetric(
-        horizontal: horizontal,
-        vertical: vertical,
-      );
 }
