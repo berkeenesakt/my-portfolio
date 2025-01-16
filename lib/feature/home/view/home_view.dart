@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:template/feature/home/tabs/about_me_tab.dart';
+import 'package:template/feature/projects/view/projects_view.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -8,7 +9,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     final tabs = [
       const AboutMeTab(),
-      const Placeholder(),
+      const ProjectsView(),
     ];
     return Scaffold(
       body: PageView.builder(
