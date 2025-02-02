@@ -1,0 +1,9 @@
+module.exports = {
+  debug: process.env.NODE_ENV === 'development',
+  i18n: {
+    defaultLocale: 'tr',
+    locales: ['tr', 'en'],
+  },
+  defaultNS: 'translation',
+  localePath: './public/locales',
+} 

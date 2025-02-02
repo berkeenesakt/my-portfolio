@@ -1,0 +1,29 @@
+{
+  "name": "Berke Enes Aktümen",
+  "title": "Mobile Application Developer",
+  "description": "I’m a 19-year-old mobile application developer with expertise in creating Android and iOS apps using Flutter. I also work on web development with React, focusing on building smooth and user-friendly experiences. Currently, I’m studying Electrical and Electronics Engineering at Erciyes University while continuing to develop my skills in software development.",
+  "sections": {
+    "skills": "Skills & Tools",
+    "contact": "Contact Information",
+    "experience": "Work Experience",
+    "connect": "Connect With Me"
+  },
+  "skills": {
+    "ui_integration": "UI Design Integration",
+    "rest_api": "REST API Usage",
+    "mobile_dev": "Mobile App Development"
+  },
+  "experiences": {
+    "anzaro": {
+      "position": "Flutter Developer",
+      "period": "JUNE 2024 - PRESENT",
+      "description": "Fixed bugs in the My Sleep Affirmations app, which is currently available in stores, and developed it's user authorization service. Built the course system for the Full Power Kegels app, enabling users to watch and engage with courses seamlessly. Additionally, contributed to various projects at this company, utilizing the Provider state management package to improve app performance and maintainability."
+    },
+    "terace": {
+      "position": "Freelancer",
+      "period": "MARCH 2023 - PRESENT",
+      "description": "Designed and developed Terace application from scratch using Flutter, ensuring seamless support for both Android and iOS platforms. Integrated Firebase services to manage the application's database efficiently. Additionally, built an admin web application to facilitate practical and streamlined management of application data."
+    }
+  },
+  "footer": "© 2024 Berke Enes Aktümen. All rights reserved."
+}
