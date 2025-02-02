@@ -43,9 +43,7 @@ export function LanguageSwitcher() {
       <button
         onClick={() => !isLoading && setIsOpen(!isOpen)}
         disabled={isLoading}
-        className={`flex items-center gap-2 px-3 py-1 rounded-full bg-[#2a2f3d] hover:bg-[#3a3f4d] transition-colors ${
-          isLoading ? 'opacity-50 cursor-not-allowed' : ''
-        }`}
+        className={`flex items-center gap-2 px-3 py-1 rounded-full bg-[#2a2f3d] hover:bg-[#3a3f4d]`}
       >
         <AiOutlineGlobal className={`text-sm ${isLoading ? 'animate-spin' : ''}`} />
         <span className="text-sm">{locale === 'en' ? 'EN' : 'TR'}</span>
@@ -57,7 +55,7 @@ export function LanguageSwitcher() {
             <button
               key={lang.code}
               onClick={() => handleLocaleChange(lang.code)}
-              className={`w-full px-4 py-2 text-left hover:bg-[#3a3f4d] transition-colors`}
+              className={`w-full px-4 py-2 text-left hover:bg-[#3a3f4d]`}
             >
               <div className="flex items-center gap-2">
                 {lang.label}
