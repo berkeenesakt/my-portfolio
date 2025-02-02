@@ -1,0 +1,29 @@
+{
+  "name": "Berke Enes Aktümen",
+  "title": "Mobil Uygulama Geliştirici",
+  "description": "19 yaşında bir mobil uygulama geliştiricisiyim, Flutter kullanarak Android ve iOS uygulamaları geliştiriyorum. Ayrıca, React ile web uygulamaları geliştiriyorum. Şu anda Erciyes Üniversitesi'nde Elektrik ve Elektronik Mühendisliği okuyorum.",
+  "sections": {
+    "skills": "Yeteneklerim & Kullandığım Araçlar",
+    "contact": "İletişim Bilgileri",
+    "experience": "İş Deneyimi",
+    "connect": "Bana Ulaşın"
+  },
+  "skills": {
+    "ui_integration": "UI tasarımı entegresi",
+    "rest_api": "REST API kullanımı",
+    "mobile_dev": "Mobil Uygulama Geliştirme"
+  },
+  "experiences": {
+    "anzaro": {
+      "position": "Flutter Developer",
+      "period": "HAZİRAN 2024 - HALEN",
+      "description": "Şu anda uygulama marketlerinde mevcut olan My Sleep Affirmations uygulamasındaki hataları düzelttim ve kullanıcı yetkilendirme servisini geliştirdim. Full Power Kegels uygulaması için kullanıcıların kursları izleyebilmesini sağlayan bir kurs sistemi geliştirdim. Ayrıca, bu şirketteki çeşitli projelerde Provider state management paketini kullanarak uygulama performansını arttırmaya katkıda bulundum."
+    },
+    "terace": {
+      "position": "Freelancer",
+      "period": "MART 2023 - HALEN",
+      "description": "Flutter kullanarak sıfırdan Terace uygulamasını geliştirdim ve Android ile iOS platformları için uygulamayı yayınladım. Firebase hizmetlerini kullanarak uygulamanın veritabanını yönettim. Ayrıca, uygulama verilerini pratik ve kolay bir şekilde yönetmek için bir yönetici web uygulaması geliştirdim."
+    }
+  },
+  "footer": "© 2024 Berke Enes Aktümen. Tüm hakları saklıdır."
+}
