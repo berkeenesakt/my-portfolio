@@ -9,7 +9,7 @@ interface CardProps {
 export function Card({ children, className = '', withGradient = false }: CardProps) {
   return (
     <div
-      className={`p-8 rounded-3xl card-hover relative overflow-hidden ${className}`}
+      className={`p-8 rounded-3xl  ${withGradient ? '' :'card-hover' } relative overflow-hidden ${className}`}
       style={
         withGradient
           ? {
